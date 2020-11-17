@@ -1,0 +1,25 @@
+Git Local Commands:
+Type: git init       - to intialise local Git Repository, puts (master) 
+
+Type: git status     - shows status of files you are working on
+
+Type: git add <file>  - adds one file to staging area & tracks the file to Repo
+Type: git add .        - stages & tracks All files you are working on
+                      When you type 'git status' after add it shows the staged files
+
+Type: git commit -m "inc comment to describe what the update does"
+	                - to commit the update to the repo
+
+Type: git branch -a  - to show all files in Repo
+Type: git checkout + 'unique commit id' or 'branch name'
+	                      - to change your working branch
+Type: git log        - to see the commits in the branch you're in,
+                        who did them and when
+hit 'q' to quit log
+
+Git Remote Commands:
+Type: git remote add origin + (url of GitHub online Repo)
+Type: git remote -v           - Checks if have a remote connection
+Type: git push                - Pushes local file to remote Repo
+Type: git pull origin master  - Pull Latest version from Remote Repo
+Type: git clone origin master - Copies from Remote to new Local Directory
